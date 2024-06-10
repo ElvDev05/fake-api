@@ -1,768 +1,496 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "password": "password123"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smit",
-      "email": "jane.smith@example.com",
-      "password": "qwerty"
-    },
-    {
-      "id": 3,
-      "name": "Maycol Vargas",
-      "email": "maycoljhordan07@gmail.com",
-      "password": "sasdasda"
-    },
-    {
-      "id": 4,
-      "name": "Hanna Vargas",
-      "email": "cafemofa@gmail.com",
-      "password": "a20221998"
-    },
-    {
-      "name": "Elverth",
-      "email": "elverthvasquez@gmail.com",
-      "password": "hola123",
-      "id": 5
-    },
-    {
-      "name": "Elverth Vasquez Villalobos",
-      "email": "elverthvasquez@gmail.com",
-      "password": "vava123",
-      "id": 6
-    },
-    {
-      "name": "qeqwe",
-      "email": "vasquezelverth@gmail.com",
-      "password": "hola12345",
-      "id": 7
-    },
-    {
-      "name": "Elverth Vasquez Villalobos",
-      "email": "combate0404@gmail.com",
-      "password": "hola1234",
-      "id": 8
-    }
-  ],
-  "vaccines": [
+  "products": [
     {
       "id": "1",
-      "name": "Bovine Brucellosis Vaccine",
-      "reason": "Prevention of bovine brucellosis",
-      "date": "2021-05-01",
-      "code": "VAC-001"
-    },
-    {
-      "id": "2",
-      "name": "Bovine Tuberculosis Vaccine",
-      "reason": "Prevention of bovine tuberculosis",
-      "date": "2021-05-02",
-      "code": "VAC-002"
+      "name": "Samsung Galaxy S20",
+      "description": "Powerful smartphone with advanced camera features",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "modelNumber": "SM-G981U",
+      "manufacturer": "Samsung Electronics",
+      "price": 799.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fsamsung.png?alt=media&token=0dd85db9-fa1f-4c16-8cd7-d024efab4eb1",
+      "availability": true,
+      "rating": 0,
+      "stock": 50,
+      "idEntrepreneur": 1
     },
     {
       "id": "3",
-      "name": "Bovine Leptospirosis Vaccine",
-      "reason": "Prevention of bovine leptospirosis",
-      "date": "2021-05-03",
-      "code": "VAC-003"
+      "name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console with cutting-edge features",
+      "category": "Electronics",
+      "brand": "Sony",
+      "modelNumber": "CUH-1000A",
+      "manufacturer": "Sony Corporation",
+      "price": 499.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fps5.png?alt=media&token=1758b63f-7d96-4c6d-a9bd-eb757903754e",
+      "availability": true,
+      "rating": 4.9,
+      "stock": 30,
+      "idEntrepreneur": 3
     },
     {
       "id": "4",
-      "name": "Bovine Paratuberculosis Vaccine",
-      "reason": "Prevention of bovine paratuberculosis",
-      "date": "2021-05-04",
-      "code": "VAC-004"
-    },
-    {
-      "id": "6",
-      "name": "Bovine Babesiosis Vaccine",
-      "reason": "Prevention of bovine babesiosis",
-      "date": "2021-05-06",
-      "code": "VAC-006"
-    },
-    {
-      "id": "7",
-      "name": "Bovine Actinobacillosis Vaccine",
-      "reason": "Prevention of bovine actinobacillosis",
-      "date": "2021-05-07",
-      "code": "VAC-007"
-    },
-    {
-      "id": "8",
-      "name": "Bovine Clostridiosis Vaccine",
-      "reason": "Prevention of bovine clostridiosis",
-      "date": "2021-05-08",
-      "code": "VAC-008"
-    },
-    {
-      "id": "9",
-      "name": "Bovine Histophilosis Vaccine",
-      "reason": "Prevention of bovine histophilosis",
-      "date": "2021-05-09",
-      "code": "VAC-009"
-    },
-    {
-      "id": "10",
-      "name": "Bovine Mycoplasmosis Vaccine",
-      "reason": "Prevention of bovine mycoplasmosis",
-      "date": "2021-05-10",
-      "code": "VAC-010"
-    },
-    {
-      "id": "11",
-      "name": "Bovine Salmonellosis Vaccine",
-      "reason": "Prevention of bovine salmonellosis",
-      "date": "2021-05-11",
-      "code": "VAC-011"
-    },
-    {
-      "id": "12",
-      "name": "Bovine Erysipelas Vaccine",
-      "reason": "Prevention of bovine erysipelas",
-      "date": "2021-05-12",
-      "code": "VAC-012"
-    },
-    {
-      "id": "13",
-      "name": "Bovine Chlamydiosis Vaccine",
-      "reason": "Prevention of bovine chlamydiosis",
-      "date": "2021-05-13",
-      "code": "VAC-013"
-    },
-    {
-      "id": "14",
-      "name": "Bovine Bluetongue Vaccine",
-      "reason": "Prevention of bovine bluetongue",
-      "date": "2021-05-14",
-      "code": "VAC-014"
-    },
-    {
-      "id": "15",
-      "name": "Bovine Foot-and-Mouth Disease Vaccine",
-      "reason": "Prevention of bovine foot-and-mouth disease",
-      "date": "2021-05-15",
-      "code": "VAC-015"
-    },
-    {
-      "id": "16",
-      "name": "Bovine Infectious Bovine Rhinotracheitis Vaccine",
-      "reason": "Prevention of bovine infectious bovine rhinotracheitis",
-      "date": "2021-05-16",
-      "code": "VAC-016"
-    },
-    {
-      "id": "17",
-      "name": "Bovine Borna Disease Vaccine",
-      "reason": "Prevention of bovine borna disease",
-      "date": "2021-05-17",
-      "code": "VAC-017"
-    },
-    {
-      "id": "18",
-      "name": "Bovine Peste des Petits Ruminants Vaccine",
-      "reason": "Prevention of bovine peste des petits ruminants",
-      "date": "2021-05-18",
-      "code": "VAC-018"
-    },
-    {
-      "id": "19",
-      "name": "Bovine African Swine Fever Vaccine",
-      "reason": "Prevention of bovine african swine fever",
-      "date": "2023-05-19",
-      "code": "VAC-019"
-    },
-    {
-      "id": "20",
-      "name": "Bovine Classical Swine Fever Vaccine",
-      "reason": "Prevention of bovine classical swine fever",
-      "date": "2021-05-20",
-      "code": "VAC-020"
-    },
-    {
-      "id": "21",
-      "name": "Oximax",
-      "reason": "Feber",
-      "date": "2024-04-28",
-      "code": "VAC-021"
-    }
-  ],
-  "bovines": [
-    {
-      "id": "1",
-      "name": "Bella",
-      "raza": "Angus",
-      "weight": 350,
-      "date": "2024-05-01",
-      "origin": {
-        "department": "Lima",
-        "city": "Lima",
-        "district": "Lima"
-      },
-      "observations": "Healthy",
-      "batchId": "1",
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=19d44121-e92a-4a01-9d5e-195a491b63ae",
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2FAPC%203%201.jpg?alt=media&token=8eb17a70-dcc0-4273-bfd3-0a1c2f5d14df",
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2FAPC3%202.jpg?alt=media&token=850de62d-ca35-46b3-902a-0998c125173e"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Luna",
-      "raza": "Holstein",
-      "weight": 354,
-      "date": "2024-05-02",
-      "origin": {},
-      "observations": "High milk production",
-      "batchId": "1",
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Fvacas.jpg?alt=media&token=9a41765b-f49f-4f25-ab20-ab537117ba75"
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Rex",
-      "raza": "Hereford",
-      "weight": 380.25,
-      "date": "2024-05-03",
-      "origin": {
-        "department": "Junín",
-        "city": "Huancayo",
-        "district": "Huancayo"
-      },
-      "observations": "Strong and healthy",
-      "batchId": 2,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Empyron",
-      "raza": "Angus",
-      "weight": 234,
-      "date": "2024-05-04",
-      "observations": {},
-      "batchId": 2,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Nike Air Max 270",
+      "description": "Stylish and comfortable athletic shoes for running",
+      "category": "Fashion",
+      "brand": "Nike",
+      "modelNumber": "AH8050-002",
+      "manufacturer": "Nike, Inc.",
+      "price": 150,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fnike.png?alt=media&token=d06111c7-d1a0-4477-994b-d64713b8f603",
+      "availability": true,
+      "rating": 4.7,
+      "stock": 40,
+      "idEntrepreneur": 2
     },
     {
       "id": "5",
-      "name": "Kyro",
-      "raza": "Charolais",
-      "weight": 212,
-      "date": "2024-05-05",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Golpe brazo derecho",
-      "batchId": 3,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Amazon Echo Dot (4th Gen)",
+      "description": "Smart speaker with Alexa, perfect for any room",
+      "category": "Electronics",
+      "brand": "Amazon",
+      "modelNumber": "B084J4YYZX",
+      "manufacturer": "Amazon.com, Inc.",
+      "price": 49.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Famazon.png?alt=media&token=8d9e364a-f58b-4153-8221-6412e3cd2b37",
+      "availability": true,
+      "rating": 4.6,
+      "stock": 60,
+      "idEntrepreneur": 2
     },
     {
       "id": "6",
-      "name": "Thor",
-      "raza": "Angus",
-      "weight": 213,
-      "date": "2024-05-06",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Ninguna",
-      "batchId": 3,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Samsung Galaxy S20",
+      "description": "Powerful smartphone with advanced camera features",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "modelNumber": "SM-G981U",
+      "manufacturer": "Samsung Electronics",
+      "price": 815.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fsamsung.png?alt=media&token=0dd85db9-fa1f-4c16-8cd7-d024efab4eb1",
+      "availability": true,
+      "rating": 0,
+      "stock": 45,
+      "idEntrepreneur": 1
     },
     {
       "id": "7",
-      "name": "Fizon",
-      "raza": "Angus",
-      "weight": 345,
-      "date": "2024-05-07",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Mancha negra en espalda",
-      "batchId": 4,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console with cutting-edge features",
+      "category": "Electronics",
+      "brand": "Sony",
+      "modelNumber": "CUH-1000A",
+      "manufacturer": "Sony Corporation",
+      "price": 515.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fps5.png?alt=media&token=1758b63f-7d96-4c6d-a9bd-eb757903754e",
+      "availability": true,
+      "rating": 4.9,
+      "stock": 28,
+      "idEntrepreneur": 3
     },
     {
       "id": "8",
-      "name": "Pai",
-      "raza": "Charolais",
-      "weight": 344,
-      "date": "2024-05-08",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Marca en la pezuña",
-      "batchId": 4,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Nike Air Max 270",
+      "description": "Stylish and comfortable athletic shoes for running",
+      "category": "Fashion",
+      "brand": "Nike",
+      "modelNumber": "AH8050-002",
+      "manufacturer": "Nike, Inc.",
+      "price": 155,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fnike.png?alt=media&token=d06111c7-d1a0-4477-994b-d64713b8f603",
+      "availability": true,
+      "rating": 4.8,
+      "stock": 38,
+      "idEntrepreneur": 3
     },
     {
       "id": "9",
-      "name": "Faru",
-      "raza": "Sebu",
-      "weight": 123,
-      "date": "2024-05-09",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Oreja golpeada",
-      "batchId": 5,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Amazon Echo Dot (4th Gen)",
+      "description": "Smart speaker with Alexa, perfect for any room",
+      "category": "Electronics",
+      "brand": "Amazon",
+      "modelNumber": "B084J4YYZX",
+      "manufacturer": "Amazon.com, Inc.",
+      "price": 52.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Famazon.png?alt=media&token=8d9e364a-f58b-4153-8221-6412e3cd2b37",
+      "availability": true,
+      "rating": 4.6,
+      "stock": 58,
+      "idEntrepreneur": 1
     },
     {
       "id": "10",
-      "name": "Loki",
-      "raza": "Angus",
-      "weight": 231,
-      "date": "2024-05-10",
-      "origin": {
-        "department": "Lambayeque",
-        "city": "Chiclayo",
-        "district": "Chiclayo"
-      },
-      "observations": "Herida en la pata trasera izquierda",
-      "batchId": 5,
-      "imgUrls": [
-        "https://firebasestorage.googleapis.com/v0/b/pecuariopro-98bb9.appspot.com/o/PecuarioPro-bovines-resources%2Ftoro%202.jpg?alt=media&token=616a36a7-5376-4cbf-a69e-2f8bf7a7184d"
-      ]
+      "name": "Samsung Galaxy S20",
+      "description": "Powerful smartphone with advanced camera features",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "modelNumber": "SM-G981U",
+      "manufacturer": "Samsung Electronics",
+      "price": 789.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fsamsung.png?alt=media&token=0dd85db9-fa1f-4c16-8cd7-d024efab4eb1",
+      "availability": true,
+      "rating": 0,
+      "stock": 52,
+      "idEntrepreneur": 1
+    },
+    {
+      "id": "11",
+      "name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console with cutting-edge features",
+      "category": "Electronics",
+      "brand": "Sony",
+      "modelNumber": "CUH-1000A",
+      "manufacturer": "Sony Corporation",
+      "price": 480.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fps5.png?alt=media&token=1758b63f-7d96-4c6d-a9bd-eb757903754e",
+      "availability": true,
+      "rating": 4.9,
+      "stock": 25,
+      "idEntrepreneur": 2
+    },
+    {
+      "id": "12",
+      "name": "Nike Air Max 270",
+      "description": "Stylish and comfortable athletic shoes for running",
+      "category": "Fashion",
+      "brand": "Nike",
+      "modelNumber": "AH8050-002",
+      "manufacturer": "Nike, Inc.",
+      "price": 145,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fnike.png?alt=media&token=d06111c7-d1a0-4477-994b-d64713b8f603",
+      "availability": true,
+      "rating": 4.7,
+      "stock": 42,
+      "idEntrepreneur": 2
+    },
+    {
+      "id": "13",
+      "name": "Amazon Echo Dot (4th Gen)",
+      "description": "Smart speaker with Alexa, perfect for any room",
+      "category": "Electronics",
+      "brand": "Amazon",
+      "modelNumber": "B084J4YYZX",
+      "manufacturer": "Amazon.com, Inc.",
+      "price": 55.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Famazon.png?alt=media&token=8d9e364a-f58b-4153-8221-6412e3cd2b37",
+      "availability": true,
+      "rating": 4.6,
+      "stock": 57,
+      "idEntrepreneur": 3
+    },
+    {
+      "id": "14",
+      "name": "Samsung Galaxy S20",
+      "description": "Powerful smartphone with advanced camera features",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "modelNumber": "SM-G981U",
+      "manufacturer": "Samsung Electronics",
+      "price": 805.99,
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/comperu-resources.appspot.com/o/products%2Fsamsung.png?alt=media&token=0dd85db9-fa1f-4c16-8cd7-d024efab4eb1",
+      "availability": true,
+      "rating": 0,
+      "stock": 48,
+      "idEntrepreneur": 3
     }
   ],
-  "campaigns": [
+  "users": [
     {
-      "id": 1,
-      "name": "Campaña de Engorde de Bovinos",
-      "dateStart": "2024-05-01T00:00:00.000Z",
-      "dateEnd": "2024-06-30T00:00:00.000Z",
-      "objective": "Engordar 100 toros",
-      "condition": "Active",
-      "duration": 60
+      "id": "1",
+      "name": "John",
+      "lastName": "Doe"
     },
     {
-      "id": 2,
-      "name": "Campaña de Vacunación de Vacas",
-      "dateStart": "2024-07-01",
-      "dateEnd": "2024-07-15",
-      "objective": "Vacunar todas las vacas del ganado",
-      "condition": "Active",
-      "duration": 14
+      "id": "2",
+      "name": "Jane",
+      "lastName": "Smith"
     },
     {
-      "id": 3,
-      "name": "Campaña de Engorde de Vacas",
-      "dateStart": "2024-08-01",
-      "dateEnd": "2024-09-30",
-      "objective": "Engordar 200 vacas",
-      "condition": "Finished",
-      "duration": 61
-    },
-    {
-      "id": 4,
-      "name": "Campaña de Inseminación Artificial de Vacas",
-      "dateStart": "2024-06-01",
-      "dateEnd": "2024-07-31",
-      "objective": "Realizar inseminación artificial en 50 vacas",
-      "condition": "Active",
-      "duration": 60
-    },
-    {
-      "id": 5,
-      "name": "Campaña de Control de Enfermedades en Toros",
-      "dateStart": "2024-08-01",
-      "dateEnd": "2024-09-30",
-      "objective": "Realizar pruebas y tratamientos preventivos en 50 toros",
-      "condition": "Finished",
-      "duration": 61
-    },
-    {
-      "id": 6,
-      "name": "Campaña de Mejora Genética en Vacas",
-      "dateStart": "2024-10-01",
-      "dateEnd": "2024-12-31",
-      "objective": "Implementar programas de mejora genética en 100 vacas",
-      "condition": "Active",
-      "duration": 91
-    },
-    {
-      "id": 7,
-      "name": "Campaña de Control de Peso en Vacas",
-      "dateStart": "2025-01-01",
-      "dateEnd": "2025-02-28",
-      "objective": "Realizar pesaje y control de peso en 300 vacas",
-      "condition": "Finished",
-      "duration": 59
-    },
-    {
-      "id": 8,
-      "name": "Campaña de Reproducción de Toros",
-      "dateStart": "2025-03-01",
-      "dateEnd": "2025-04-30",
-      "objective": "Garantizar la reproducción exitosa de 30 toros",
-      "condition": "Active",
-      "duration": 61
-    },
-    {
-      "id": 9,
-      "name": "Campaña de Desparasitación de Vacas",
-      "dateStart": "2025-05-01",
-      "dateEnd": "2025-06-30",
-      "objective": "Desparasitar 500 vacas",
-      "condition": "Active",
-      "duration": 61
-    },
-    {
-      "id": 10,
-      "name": "Campaña de Control de Fertilidad en Vacas",
-      "dateStart": "2025-07-01",
-      "dateEnd": "2025-08-31",
-      "objective": "Realizar pruebas de fertilidad en 200 vacas",
-      "condition": "Finished",
-      "duration": 61
+      "id": "3",
+      "name": "Alice",
+      "lastName": "Johnson"
     }
   ],
-  "batches": [
+  "shipping": [
     {
-      "id": 1,
-      "name": "Lote A",
-      "area": 100,
-      "status": "En proceso",
-      "campaignId": 1
+      "id": "8cf2",
+      "firstName": "a",
+      "lastName": "a",
+      "dni": "a",
+      "department": "a",
+      "province": "a",
+      "district": "a",
+      "shippingAddress": "a",
+      "postalCode": "a"
+
     },
     {
-      "id": 2,
-      "name": "Lote B",
-      "area": 200,
-      "status": "En espera",
-      "campaignId": 1
-    },
-    {
-      "id": 3,
-      "name": "Lote C",
-      "area": 150,
-      "status": "Completado",
-      "campaignId": 1
-    },
-    {
-      "id": 4,
-      "name": "Lote D",
-      "area": 180,
-      "status": "En proceso",
-      "campaignId": 5
-    },
-    {
-      "id": 5,
-      "name": "Lote E",
-      "area": 220,
-      "status": "En espera",
-      "campaignId": 5
-    },
-    {
-      "id": 6,
-      "name": "Lote F",
-      "area": 190,
-      "status": "Completado",
-      "campaignId": 5
-    },
-    {
-      "id": 7,
-      "name": "Lote G",
-      "area": 250,
-      "status": "En proceso",
-      "campaignId": 6
-    },
-    {
-      "id": 8,
-      "name": "Lote H",
-      "area": 300,
-      "status": "En espera",
-      "campaignId": 6
-    },
-    {
-      "id": 9,
-      "name": "Lote I",
-      "area": 280,
-      "status": "Completado",
-      "campaignId": 6
-    },
-    {
-      "id": 10,
-      "name": "Lote J",
-      "area": 120,
-      "status": "En proceso",
-      "campaignId": 2
-    },
-    {
-      "id": 11,
-      "name": "Lote K",
-      "area": 180,
-      "status": "En espera",
-      "campaignId": 2
-    },
-    {
-      "id": 12,
-      "name": "Lote L",
-      "area": 200,
-      "status": "Completado",
-      "campaignId": 2
-    },
-    {
-      "id": 13,
-      "name": "Lote M",
-      "area": 150,
-      "status": "En proceso",
-      "campaignId": 3
-    },
-    {
-      "id": 14,
-      "name": "Lote N",
-      "area": 210,
-      "status": "En espera",
-      "campaignId": 3
-    },
-    {
-      "id": 15,
-      "name": "Lote O",
-      "area": 240,
-      "status": "Completado",
-      "campaignId": 3
-    },
-    {
-      "id": 16,
-      "name": "Lote P",
-      "area": 180,
-      "status": "En proceso",
-      "campaignId": 4
-    },
-    {
-      "id": 17,
-      "name": "Lote Q",
-      "area": 220,
-      "status": "En espera",
-      "campaignId": 4
-    },
-    {
-      "id": 18,
-      "name": "Lote R",
-      "area": 270,
-      "status": "Completado",
-      "campaignId": 4
-    },
-    {
-      "id": 19,
-      "name": "Lote S",
-      "area": 190,
-      "status": "En proceso",
-      "campaignId": 7
-    },
-    {
-      "id": 20,
-      "name": "Lote T",
-      "area": 230,
-      "status": "En espera",
-      "campaignId": 7
+      "id": "7f33",
+      "firstName": "wqeqwe",
+      "lastName": "eqweqw",
+      "dni": "eqweqw",
+      "department": "eqweqw",
+      "province": "qweqweqw",
+      "district": "eqweqw",
+      "shippingAddress": "ewqeqw",
+      "postalCode": "qweqweq"
     }
   ],
-  "staff": [
+  "reviews": [
     {
-      "id": 1,
-      "campaigns_id": 1,
-      "name": "Jhon",
-      "last_name": "Miller",
-      "email": "jhonworker@pecuario.pro",
-      "on_job_status": "Working",
-      "job_description": "Graze group 2 cows"
+      "id": "1",
+      "idUser": 1,
+      "idProduct": 1,
+      "rating": 5,
+      "content": "Amazing phone with great features!"
     },
     {
-      "id": 2,
-      "campaigns_id": 2,
-      "name": "Francisco",
-      "last_name": "Garces",
-      "email": "franciscoworker@pecuario.pro",
-      "on_job_status": "Available",
-      "job_description": "Feed and vaccinate cows of group 3",
-      "date_start": "2024-05-01",
-      "date_end": "2024-06-30"
+      "id": "2",
+      "idUser": 2,
+      "idProduct": 1,
+      "rating": 4,
+      "content": "Good phone but battery life could be better."
     },
     {
-      "id": 3,
-      "campaigns_id": 3,
-      "name": "Eloy",
-      "last_name": "Robles",
-      "email": "eloyworker@pecuario.pro",
-      "on_job_status": "Available",
-      "job_description": "Feed and vaccinate cows of group 5",
-      "date_start": "2024-05-01",
-      "date_end": "2024-06-30"
+      "id": "3",
+      "idUser": 3,
+      "idProduct": 3,
+      "rating": 5,
+      "content": "Best gaming console ever!"
     },
     {
-      "id": 4,
-      "campaigns_id": 4,
-      "name": "Alfred",
-      "last_name": "Santos",
-      "email": "alfredworker@pecuario.pro",
-      "on_job_status": "Working",
-      "job_description": "Check health status of livestock 1 and 4",
-      "date_start": "2024-05-01",
-      "date_end": "2024-06-30"
+      "id": "4",
+      "idUser": 1,
+      "idProduct": 3,
+      "rating": 4,
+      "content": "Great console, but a bit pricey."
     },
     {
-      "id": 5,
-      "campaigns_id": 5,
-      "name": "Francisco",
-      "last_name": "Vargas",
-      "email": "vargasworker@pecuario.pro",
-      "on_job_status": "Available",
-      "job_description": "Check health status of livestock 1 and 4",
-      "date_start": "2024-05-01",
-      "date_end": "2024-06-30"
+      "id": "5",
+      "idUser": 2,
+      "idProduct": 4,
+      "rating": 4,
+      "content": "Comfortable shoes, love the design!"
     },
     {
-      "id": 6,
-      "campaigns_id": 6,
-      "name": "Damian",
-      "last_name": "Zabala",
-      "email": "damianworker@pecuario.pro",
-      "on_job_status": "Available",
-      "job_description": "Graze group 1 cows",
-      "date_start": "2024-05-01",
-      "date_end": "2024-06-30"
+      "id": "6",
+      "idUser": 3,
+      "idProduct": 4,
+      "rating": 5,
+      "content": "Perfect shoes for running."
     },
     {
       "id": "7",
-      "campaigns_id": "90",
-      "name": "Makanaky",
-      "last_name": "La realeza",
-      "email": "Makanaky@Larealeza.com",
-      "on_job_status": "Available",
-      "job_description": "daaaaaa"
+      "idUser": 1,
+      "idProduct": 5,
+      "rating": 5,
+      "content": "Excellent smart speaker!"
+    },
+    {
+      "id": "8",
+      "idUser": 2,
+      "idProduct": 5,
+      "rating": 4,
+      "content": "Very useful, but sound quality could be improved."
+    },
+    {
+      "id": "9",
+      "idUser": 3,
+      "idProduct": 5,
+      "rating": 5,
+      "content": "Best value for money smart speaker."
+    },
+    {
+      "id": "10",
+      "idUser": 1,
+      "idProduct": 4,
+      "rating": 4,
+      "content": "Good shoes, but a bit expensive."
     }
   ],
-  "veterinarians": [
+  "orders": [
     {
-      "id": 1,
-      "first_name": "John",
-      "last_name": "Doe",
-      "speciality": "Cirugía",
-      "phone_number": "555-1234",
-      "email": "john.doe@fckdapolice.com",
-      "work_start_time": "08:00 am",
-      "work_end_time": "16:00 pm",
-      "city": "Lima",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/1.webp"
+      "id": "1",
+      "userId": 1,
+      "productId": 2,
+      "shippingAddress": "Nashville, TN 37010",
+      "orderDate": "12/31/2020",
+      "status": "Delivered",
+      "total": 30
     },
     {
-      "id": 2,
-      "first_name": "Jane",
-      "last_name": "Smith",
-      "speciality": "Nutrición",
-      "phone_number": "555-5678",
-      "email": "jane.smith@yahoo.com",
-      "work_start_time": "08:00 am",
-      "work_end_time": "17:00 pm",
-      "city": "Ancash",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/2.webp"
+      "id": "2",
+      "userId": 2,
+      "productId": 3,
+      "shippingAddress": "Austin, TX 73301",
+      "orderDate": "3/15/2015",
+      "status": "Shipped",
+      "total": 50
     },
     {
-      "id": 3,
-      "first_name": "Pedro",
-      "last_name": "García",
-      "speciality": "Veterinaria de Salud Pública",
-      "phone_number": "555-4321",
-      "email": "pedro.garcia@gmail.com",
-      "work_start_time": "09:00 am",
-      "work_end_time": "17:00 pm",
-      "city": "Cusco",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/3.webp"
+      "id": "3",
+      "userId": 3,
+      "productId": 1,
+      "shippingAddress": "Salt Lake City, UT 84001",
+      "orderDate": "6/1/2018",
+      "status": "New",
+      "total": 50
     },
     {
-      "id": 4,
-      "first_name": "María",
-      "last_name": "Martínez",
-      "speciality": "Producción Animal",
-      "phone_number": "555-8765",
-      "email": "maria.martinez@hotmail.com",
-      "work_start_time": "08:30 am",
-      "work_end_time": "16:30 pm",
-      "city": "Trujillo",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/4.webp"
+      "id": "4",
+      "userId": 4,
+      "productId": 14,
+      "shippingAddress": "Montpelier, VT 05001",
+      "orderDate": "9/29/2012",
+      "status": "Shipped",
+      "total": 50
     },
     {
-      "id": 5,
-      "first_name": "Carlos",
-      "last_name": "Hernández",
-      "speciality": "Bienestar Animal",
-      "phone_number": "555-9876",
-      "email": "carlos.hernandez@yahoo.com",
-      "work_start_time": "08:00 am",
-      "work_end_time": "16:00 pm",
-      "city": "Arequipa",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/5.webp"
+      "id": "5",
+      "userId": 5,
+      "productId": 13,
+      "shippingAddress": "Richmond, VA 20101",
+      "orderDate": "2/14/2019",
+      "status": "Delivered",
+      "total": 50
     },
     {
-      "id": 6,
-      "first_name": "Ana",
-      "last_name": "López",
-      "speciality": "Sanidad Animal",
-      "phone_number": "555-5432",
-      "email": "ana.lopez@outlook.com",
-      "work_start_time": "09:00 am",
-      "work_end_time": "17:00 pm",
-      "city": "Piura",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/6.webp"
+      "id": "6",
+      "userId": 34,
+      "productId": 12,
+      "shippingAddress": "Olympia, WA 98001",
+      "orderDate": "5/1/2017",
+      "status": "New",
+      "total": 50
     },
     {
-      "id": 7,
-      "first_name": "Javier",
-      "last_name": "González",
-      "speciality": "Ciencias Clínicas",
-      "phone_number": "555-6543",
-      "email": "javier.gonzalez@gmail.com",
-      "work_start_time": "08:00 am",
-      "work_end_time": "16:00 pm",
-      "city": "Iquitos",
-      "status": "Activo",
-      "linkedin": "www.soyunlink.com",
-      "photoUrl": "https://raw.githubusercontent.com/AlexlmL/ImagesforOpenSource/main/7.webp"
+      "id": "7",
+      "userId": 67,
+      "productId": 11,
+      "shippingAddress": "Charleston, WV 24701",
+      "orderDate": "8/20/2016",
+      "status": "Shipped",
+      "total": 50
+    },
+    {
+      "id": "8",
+      "userId": 45,
+      "productId": 9,
+      "shippingAddress": "Madison, WI 53001",
+      "orderDate": "11/11/2014",
+      "status": "New",
+      "total": 50
+    },
+    {
+      "id": "9",
+      "userId": 4,
+      "productId": 7,
+      "shippingAddress": "Cheyenne, WY 82001",
+      "orderDate": "4/1/2013",
+      "status": "Shipped",
+      "total": 50
+    },
+    {
+      "id": "10",
+      "userId": 9,
+      "productId": 8,
+      "shippingAddress": "Montgomery, AL 35004",
+      "orderDate": "7/4/2011",
+      "status": "Delivered",
+      "total": 50
+    },
+    {
+      "id": "11",
+      "userId": 6,
+      "productId": 5,
+      "shippingAddress": "Juneau, AK 99501",
+      "orderDate": "10/31/2019",
+      "status": "Delivered",
+      "total": 50
+    },
+    {
+      "id": "12",
+      "userId": 9,
+      "productId": 6,
+      "shippingAddress": "Phoenix, AZ 85001",
+      "orderDate": "1/1/2022",
+      "status": "Shipped",
+      "total": 50
+    },
+    {
+      "id": "13",
+      "userId": 7,
+      "productId": 4,
+      "shippingAddress": "Little Rock, AR 71601",
+      "orderDate": "1/1/2022",
+      "status": "New",
+      "total": 50
     }
+  ],
+  "stores": [
+    [
+      {
+        "name": "Tienda 1",
+        "RUC": "123456789",
+        "email": "tienda1@example.com",
+        "phone_number": "1234567890"
+      },
+      {
+        "name": "Tienda 2",
+        "RUC": "987654321",
+        "email": "tienda2@example.com",
+        "phone_number": "0987654321"
+      },
+      {
+        "name": "Tienda 3",
+        "RUC": "112233445",
+        "email": "tienda3@example.com",
+        "phone_number": "1122334455"
+      },
+      {
+        "name": "Tienda 4",
+        "RUC": "556677889",
+        "email": "tienda4@example.com",
+        "phone_number": "5566778899"
+      },
+      {
+        "name": "Tienda 5",
+        "RUC": "123123123",
+        "email": "tienda5@example.com",
+        "phone_number": "1231231234"
+      },
+      {
+        "name": "Tienda 6",
+        "RUC": "321321321",
+        "email": "tienda6@example.com",
+        "phone_number": "3213213210"
+      },
+      {
+        "name": "Tienda 7",
+        "RUC": "456456456",
+        "email": "tienda7@example.com",
+        "phone_number": "4564564567"
+      },
+      {
+        "name": "Tienda 8",
+        "RUC": "654654654",
+        "email": "tienda8@example.com",
+        "phone_number": "6546546543"
+      },
+      {
+        "name": "Tienda 9",
+        "RUC": "789789789",
+        "email": "tienda9@example.com",
+        "phone_number": "7897897890"
+      },
+      {
+        "name": "Tienda 10",
+        "RUC": "987987987",
+        "email": "tienda10@example.com",
+        "phone_number": "9879879871"
+      }
+    ]
   ]
 }
